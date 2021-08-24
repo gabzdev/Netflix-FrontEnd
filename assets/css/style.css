@@ -263,7 +263,7 @@ body {
         display: flex;
         justify-content: space-between;
     }
-    .rodape .rodape__menuNavegacao ul il {
+    .rodape .rodape__menuNavegacao ul li {
         margin-bottom: 20px;
     }
 }
