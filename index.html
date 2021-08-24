@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
+</head>
+
+<!-- Corpo -->
+<body>
+    <!-- Cabeçalho -->
+    <header class="cabecalho">
+        <div class="container">
+            <!-- Logo -->
+            <figure class="cabecalho__logo">
+                <img src="assets/img/logo2.png" alt="Logo Netflix">
+                <figcaption hidden>Logo Kenzie Flix</figcaption>
+            </figure>
+
+            <!-- Menu Navegação -->
+            <nav class="cabecalho__menu">
+
+                <!-- Lista de Links -->
+                <ul>
+                    <li>
+                        <a class="cabecalho__inicioBold" ref="#">Início</a>
+                    </li>
+                    <li>
+                        <a href="#">Séries</a>
+                    </li>
+                    <li>
+                        <a href="#">Filmes</a>
+                    </li>
+                    <li>
+                        <a href="#">Bombando</a>
+                    </li>
+                    <li>
+                        <a href="#">Minha lista</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Div de Links -->
+            <div class="cabecalho__menuConfiguracao">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="assets/img/pesquisa.png" alt="Pesquisa">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">INFANTIL</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="assets/img/presente.png" alt="Presente">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="assets/img/notificacao.png" alt="Notificações">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="assets/img/ProfileIMG.png" alt="Profile">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+
+        <!-- Seção Destaque -->
+        <section class="secaoDestaque">
+            <div class="container">
+                <!-- Imagem Destaque -->
+                <figure class="secaoDestaque__imagemDestaque">
+                    <img src="./assets/img/destaque.png" alt="Stranger Things">
+                    <figcaption></figcaption>
+                </figure>
+
+                <!-- Conteúdo Destaque -->
+                <article class="secaoDestaque__descricaoDestaque">
+                <h1><img src="./assets/img/titulo-destaque.png" alt="Título destaque"></h1>
+                <p>Quando um garoto desaparece, a cidade toda participa nas buscas. 
+                    Mas o que encontram são segredos, forças sobrenaturais e uma menina.</p>
+                </article>
+
+                <!-- Links de Navegação -->
+                <div class="secaoDestaque__navegacaoDestaque">
+                    <a href="#"><img src="assets/img/assistir.png" alt="Play assistir">Assistir</a>
+                    <a class="secaoDestaque__navegacaoDestaque--transparente" href="#"><img src="assets/img/info.png" alt="Mais informações">Mais informações</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Filmes Em Alta -->
+        <section class="secaoFilmes">
+            <div class="container">
+                <!-- Título da Seção -->
+                <h2>Em Alta</h2>
+
+                <!-- Lista de Filmes -->
+                <ul class="secaoFilmes__listaFilmes">
+                    <li>
+                        <figure>
+                            <img src="./assets/img/filme1.png" alt="Filme 1">
+                            <figcaption>Filme 1</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./assets/img/filme2.png" alt="Filme 2">
+                            <figcaption>Filme 2</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./assets/img/filme3.png" alt="Filme 3">
+                            <figcaption>Filme 3</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./assets/img/filme4.png" alt="Filme 4">
+                            <figcaption>Filme 4</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./assets/img/filme1.png" alt="Filme 1">
+                            <figcaption>Filme 1</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./assets/img/filme3.png" alt="Filme 3">
+                            <figcaption>Filme 1</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./assets/img/filme2.png" alt="Filme 2">
+                            <figcaption>Filme 2</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Seção Continuar Assistindo -->
+        <section class="secaoFilmes secaoFilmes--progressoFilmes">
+            <div class="container">
+                <!-- Título da Seção -->
+                <h2>Continuar assistindo</h2>
+
+                <!-- Lista de Filmes -->
+                <ul class="secaoFilmes__listaFilmes">
+                    <li>
+                        <figure>
+                            <img src="./assets/img/filme1.png" alt="Filme 1">
+                            <figcaption>Filme 1</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./assets/img/filme2.png" alt="Filme 2">
+                            <figcaption>Filme 2</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./assets/img/filme3.png" alt="Filme 3">
+                            <figcaption>Filme 3</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./assets/img/filme4.png" alt="Filme 4">
+                            <figcaption>Filme 4</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./assets/img/filme1.png" alt="Filme 1">
+                            <figcaption>Filme 1</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </section>      
+        
+        <!-- Seção Minha Lista -->
+        <section class="secaoFilmes secaoFilmes--minhaLista">
+            <div class="container">
+                <!-- Título da Seção -->
+                <h2>Minha lista</h2>
+
+                <!-- Lista de Filmes -->
+                <ul class="secaoFilmes__listaFilmes">
+                    <li>
+                        <figure>
+                            <img src="./assets/img/filme1.png" alt="Filme 1">
+                            <figcaption>Filme 1</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./assets/img/filme2.png" alt="Filme 2">
+                            <figcaption>Filme 2</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./assets/img/filme3.png" alt="Filme 3">
+                            <figcaption>Filme 3</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./assets/img/filme4.png" alt="Filme 4">
+                            <figcaption>Filme 4</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./assets/img/filme1.png" alt="Filme 1">
+                            <figcaption>Filme 1</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./assets/img/filme2.png" alt="Filme 2">
+                            <figcaption>Filme 2</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./assets/img/filme3.png" alt="Filme 3">
+                            <figcaption>Filme 3</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </section>   
+
+        <!-- Seção Só Na Netflix -->
+        <section class="secaoFilmes secaoFilmes--soNaNetflix">
+            <div class="container">
+                <!-- Título da Seção -->
+                <h2>Só na Netflix</h2>
+
+                <!-- Lista de Filmes -->
+                <ul class="secaoFilmes__listaFilmes">
+                    <li>
+                        <figure>
+                            <img src="./assets/img/netflix1.png" alt="Filme 1">
+                            <figcaption>Filme 1</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./assets/img/netflix2.png" alt="Filme 2">
+                            <figcaption>Filme 2</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./assets/img/netflix3.png" alt="Filme 3">
+                            <figcaption>Filme 3</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./assets/img/netflix1.png" alt="Filme 1">
+                            <figcaption>Filme 1</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./assets/img/netflix2.png" alt="Filme 2">
+                            <figcaption>Filme 2</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./assets/img/netflix3.png" alt="Filme 3">
+                            <figcaption>Filme 2</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./assets/img/netflix1.png" alt="Filme 1">
+                            <figcaption>Filme 1</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </section>   
+
+        <!-- Seção Top 10 No Brasil -->
+        <section class="secaoFilmes secaoFilmes--topBrasil">
+            <div class="container">
+                <!-- Título da Seção -->
+                <h2>Top 10 no Brasil hoje</h2>
+
+                <!-- Lista de Filmes -->
+                <ul class="secaoFilmes__listaFilmes">
+                    <li>
+                        <figure>
+                            <img src="./assets/img/rank1.png" alt="Filme 1">
+                            <figcaption>Filme 1</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./assets/img/rank2.png" alt="Filme 2">
+                            <figcaption>Filme 2</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./assets/img/rank3.png" alt="Filme 3">
+                            <figcaption>Filme 3</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./assets/img/rank4.png" alt="Filme 4">
+                            <figcaption>Filme 1</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+        <!-- Seção Minha Lista -->
+        <section class="secaoFilmes secaoFilmes--minhaLista">
+            <div class="container">
+                <!-- Título da Seção -->
+                <h2>Minha lista</h2>
+
+                <!-- Lista de Filmes -->
+                <ul class="secaoFilmes__listaFilmes">
+                    <li>
+                        <figure>
+                            <img src="./assets/img/filme1.png" alt="Filme 1">
+                            <figcaption>Filme 1</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./assets/img/filme2.png" alt="Filme 2">
+                            <figcaption>Filme 2</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./assets/img/filme3.png" alt="Filme 3">
+                            <figcaption>Filme 3</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./assets/img/filme4.png" alt="Filme 4">
+                            <figcaption>Filme 4</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./assets/img/filme1.png" alt="Filme 1">
+                            <figcaption>Filme 1</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./assets/img/filme2.png" alt="Filme 2">
+                            <figcaption>Filme 2</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./assets/img/filme3.png" alt="Filme 3">
+                            <figcaption>Filme 3</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+
+        <div class="container">
+        <!-- Redes Sociais -->
+            <div class="rodape__midiasSociais">
+                <ul>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="./assets/img/tt.png" alt="Twitter">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="./assets/img/yt.png" alt="Youtube">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="./assets/img/fb.png" alt="Facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="./assets/img/ig.png" alt="Instagram">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <nav class="rodape__menuNavegacao">
+                <ul>
+                    <li>
+                        <a href="#">Idiomas e legendas</a>
+                    </li>
+                    <li>
+                        <a href="#">Imprensa</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacidade</a>
+                    </li>
+                    <li>
+                        <a href="#">Entre em contato</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">Autodescrição</a>
+                    </li>
+                    <li>
+                        <a href="#">Relações com investidores</a>
+                    </li>
+                    <li>
+                        <a href="#">Avisos legais</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">Centro de ajuda</a>
+                    </li>
+                    <li>
+                        <a href="#">Carreiras</a>
+                    </li>
+                    <li>
+                        <a href="#">Preferências de cookies</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">Cartão pré-pago</a>
+                    </li>
+                    <li>
+                        <a href="#">Termos de uso</a>
+                    </li>
+                    <li>
+                        <a href="#">Informações corporativas</a>
+                    </li>
+                </ul>
+            </nav>
+                
+            <a href="#" class="rodape__linkCodigo">Código do serviço</a>
+                
+            <p>&copy; 1997-2021 Netflix, Inc.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
